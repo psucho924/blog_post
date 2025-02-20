@@ -1,3 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
 body{
+    background-color: rgb(17 17 19);
+}
+.navbar{
+    height: 10rem;
     background-color: rgb(24 24 26);
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(63 63 70);
+      
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    
+}
+.outer{
+
+    
+    color: rgb(161 161 170);
+    background-color: rgb(17 17 19);
+    box-sizing: border-box;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 3rem;
+    /* border: 2px solid white; */
+    /* padding-top: 2rem; */
+    
+   
+    
+   
+    
+
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+ 
+}
+.div3a, .div3b, .div3c{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.div3b, .div3c{
+    margin-top: 1.2rem;
+}
+.div3a{
+    font-size:2rem ;
+    margin-top: 1rem;
+}
+.div3a i:hover{
+    color: white;
+}
+.div3c{
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.star{
+    filter: invert(75%);
+    height: 0.8rem;
+}
+.div1, .div2, .div3{
+    width: 100%;
+}
+.btn{
+    background-color: rgba(0,0,0,0);
+    color: rgb(161 161 170);
+    padding: 8px;
+    border: 0.8px solid rgb(63 63 70);
+    border-radius: 10px;
+    padding-left: 15px ;
+    padding-right: 15px;
+}
+.btn:hover{
+    background-color: rgb(39 39 42);
+}
+.navigators:hover{
+    color: rgb(59 130 246);
+
+}
+
+
+/* utility */
+.font-sans{
+    font-family: sans-serif;
 }
