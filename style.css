@@ -18,7 +18,7 @@ nav {
     background-color: rgb(24 24 26);
 }
 
-.div1 {
+.divOne {
     width: 77%;
     height: 100%;
     margin: auto;
@@ -139,8 +139,8 @@ i {
 
 
 
-/* div2 */
-.div2 {
+/* divTwo */
+.divTwo {
     height: 25%;
     width: 100%;
     display: flex;
@@ -151,7 +151,7 @@ i {
 }
 
 
-.div2 ul li {
+.divTwo ul li {
     /* background-color: aquamarine; */
     font-family: sans-serif;
     font-weight: 700;
